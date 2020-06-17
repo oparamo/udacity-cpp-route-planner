@@ -1,12 +1,12 @@
-#include <optional>
-#include <fstream>
-#include <iostream>
-#include <vector>
-#include <string>
-#include <io2d.h>
-#include "route_model.h"
 #include "render.h"
+#include "route_model.h"
 #include "route_planner.h"
+#include <fstream>
+#include <io2d.h>
+#include <iostream>
+#include <optional>
+#include <string>
+#include <vector>
 using std::byte;
 using std::cin;
 using std::cout;
@@ -16,8 +16,8 @@ using std::ios;
 using std::move;
 using std::nullopt;
 using std::optional;
-using std::string;
 using std::string_view;
+using std::string;
 using std::vector;
 
 using namespace std::experimental;
